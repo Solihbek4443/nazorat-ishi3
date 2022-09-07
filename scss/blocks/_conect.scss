@@ -1,0 +1,117 @@
+.section__heading__conect .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px solid rgb(211, 211, 211);
+  mix-blend-mode: normal;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  mix-blend-mode: normal;
+  margin-top: 47px;
+
+  .section__heading__conect__paragrof {
+    margin-top: 47px;
+    font-family: "Ibarra Real Nova";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 42px;
+    color: #33323d;
+
+    &__text {
+      margin-top: 47px;
+      width: 635px;
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #33323d;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+  }
+}
+
+.conect__part {
+  margin-bottom: 95px;
+}
+
+@media only screen and (max-width: 768px) {
+  .section__heading__conect .container {
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid rgb(211, 211, 211);
+    mix-blend-mode: normal;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    mix-blend-mode: normal;
+    margin-top: 47px;
+
+    .section__heading__conect__paragrof {
+      margin-top: 47px;
+      font-family: "Ibarra Real Nova";
+      font-weight: 700;
+      font-style: normal;
+      font-size: 40px;
+      line-height: 42px;
+      color: #33323d;
+
+      &__text {
+        margin-top: 47px;
+        width: 635px;
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323d;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .conect__part {
+    margin-bottom: 95px;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .section__heading__conect .container {
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid rgb(211, 211, 211);
+    mix-blend-mode: normal;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    mix-blend-mode: normal;
+    margin-top: 47px;
+
+    .section__heading__conect__paragrof {
+      margin-top: 47px;
+      font-family: "Ibarra Real Nova";
+      font-weight: 700;
+      font-style: normal;
+      font-size: 40px;
+      line-height: 42px;
+      color: #33323d;
+
+      &__text {
+        margin-top: 47px;
+        width: 360px;
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323d;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .conect__part {
+    margin-bottom: 95px;
+  }
+}

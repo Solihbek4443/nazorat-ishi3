@@ -1,0 +1,222 @@
+@import "extend";
+
+.section__heading {
+  .container {
+    position: relative;
+  }
+
+  &__img {
+    max-width: 100%;
+
+    &__tablet {
+      display: none;
+    }
+  }
+
+  &__paragrof {
+    width: 445px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+
+    h1 {
+      font-family: "Ibarra Real Nova";
+      font-weight: 700;
+      font-style: normal;
+      line-height: 50px;
+      font-size: 50px;
+      color: #33323d;
+      letter-spacing: -0.446429px;
+      padding: 0px 60px 0px 0;
+    }
+
+    &__link1 {
+      background-color: #203a4c;
+      padding: 10.2px 16px;
+      display: inline-block;
+
+      &:hover {
+        background-color: #5fb4a2;
+      }
+
+      &:active {
+        background-color: rgb(223, 223, 223);
+      }
+
+      &__link2 {
+        @extend %extend-link;
+        background-color: #203a4c;
+        color: #fff;
+        opacity: 0.9;
+        padding: 12px 16px;
+        margin-left: -4px;
+        line-height: 14px;
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        &:hover {
+          background-color: #5fb4a2;
+        }
+
+        &:active {
+          background-color: rgb(223, 223, 223);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section__heading {
+    .container {
+      position: relative;
+    }
+
+    &__img {
+      max-width: 100%;
+      display: none;
+
+      &__tablet {
+        display: block;
+        max-width: 768px;
+      }
+    }
+
+    &__paragrof {
+      width: 514px;
+      background-color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 39px;
+      z-index: 2;
+
+      h1 {
+        font-family: "Ibarra Real Nova";
+        font-weight: 700;
+        font-style: normal;
+        line-height: 50px;
+        font-size: 50px;
+        color: #33323d;
+        letter-spacing: -0.446429px;
+        padding: 0px 60px 0px 0;
+      }
+
+      &__link1 {
+        background-color: #203a4c;
+        padding: 10px 16px;
+        display: inline-block;
+
+        &:hover {
+          background-color: #5fb4a2;
+        }
+
+        &:active {
+          background-color: rgb(223, 223, 223);
+        }
+
+        &__link2 {
+          background-color: #203a4c;
+          color: #fff;
+          opacity: 0.9;
+          padding: 12px 16px;
+          margin-left: -4px;
+          line-height: 14px;
+          font-size: 12px;
+          text-align: center;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+
+          &:hover {
+            background-color: #5fb4a2;
+          }
+
+          &:active {
+            background-color: rgb(223, 223, 223);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .section__heading {
+    .container {
+      position: relative;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__img {
+      max-width: 100%;
+      display: none;
+
+      &__tablet {
+        display: block;
+        max-width: 100%;
+      }
+    }
+
+    &__paragrof {
+      width: 428px;
+      background-color: #fff;
+      position: static;
+
+      h1 {
+        font-family: "Ibarra Real Nova";
+        font-weight: 700;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323d;
+        padding: 0;
+      }
+
+      &__link1 {
+        background-color: #203a4c;
+        padding: 10.1px 16px;
+        display: inline-block;
+
+        &:hover {
+          background-color: #5fb4a2;
+        }
+
+        &:active {
+          background-color: rgb(223, 223, 223);
+        }
+
+        &__link2 {
+          background-color: #203a4c;
+          color: #fff;
+          opacity: 0.9;
+          text-decoration: none;
+          padding: 11.3px 16px;
+          margin-left: -5px;
+          display: inline-block;
+          font-family: "Public Sans";
+          font-weight: 400;
+          font-style: normal;
+          line-height: 14px;
+          font-size: 12px;
+          text-align: center;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+
+          &:hover {
+            background-color: #5fb4a2;
+          }
+
+          &:active {
+            background-color: rgb(223, 223, 223);
+          }
+        }
+      }
+    }
+  }
+}
